@@ -2,10 +2,10 @@ package tn.starter.shared.services;
 
 import java.util.List;
 
-public interface IGenericService<T,ID> {
-	T add(T t);
-	T update(T t);
-	T retrieveById(ID id);
-	List<T> retrieveAll();
+public interface IGenericService<DTO,T,ID> {
+	DTO add(DTO dto);
+	DTO update(DTO dto);
+	DTO retrieveById(ID id);
+	List<DTO> retrieveAll();
 	void delete(ID id);
 }

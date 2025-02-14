@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c69ae9f-0641-499c-9205-b452c2cc323b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/starter/shared/entities/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/starter/shared/entities/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/starter/shared/entities/MongoBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/starter/shared/entities/MongoBaseEntity.java" afterDir="false" />
-    </list>
+    <list default="true" id="8c69ae9f-0641-499c-9205-b452c2cc323b" name="Changes" comment="mongoDB Generic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,9 +33,9 @@
     "accountId": "f022dc55-51b6-48c8-b14d-c0abd297dd8d"
   }
 }]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2srDmNB7I6CBXkKDDJnmiGObLjj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,9 +45,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven.shared [clean,install].executor": "Run",
+    "Maven.shared [clean,package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -105,11 +102,24 @@
       <workItem from="1739312501442" duration="3067000" />
       <workItem from="1739318366349" duration="1673000" />
       <workItem from="1739320494010" duration="4665000" />
-      <workItem from="1739391458136" duration="1509000" />
+      <workItem from="1739391458136" duration="11736000" />
     </task>
+    <task id="LOCAL-00001" summary="mongoDB Generic">
+      <option name="closed" value="true" />
+      <created>1739407515349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739407515349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mongoDB Generic" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongoDB Generic" />
   </component>
 </project>
